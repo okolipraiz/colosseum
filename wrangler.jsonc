@@ -1,0 +1,53 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-05-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+  },
+  "env": {
+    "prod": {
+      "name": "forcast-fend",
+      "main": ".open-next/worker.js",
+      "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS",
+      },
+      "services": [
+        { "binding": "WORKER_SELF_REFERENCE", "service": "forcast-fend" },
+      ],
+      "images": {
+        "binding": "IMAGES",
+      },
+      "kv_namespaces": [
+        {
+          "binding": "NEXT_INC_CACHE_KV",
+          "id": "48423e90db2145f5a491ef5218cd0c8b",
+        },
+      ],
+      "vars": {
+        "NEXT_PUBLIC_API_URL": "https://forcast-api.anomalyforex.com/v1",
+        "NEXT_PUBLIC_FRONTEND_URL": "https://useforecast.cc",
+      },
+    },
+    // // "dev": {
+    // //   "name": "dev-forcast-fend",
+    // //   "main": ".open-next/worker.js",
+    // //   "assets": {
+    // //     "directory": ".open-next/assets",
+    // //     "binding": "ASSETS",
+    // //   },
+    // //   "services": [
+    // //     { "binding": "WORKER_SELF_REFERENCE", "service": "dev-forcast-fend" },
+    // //   ],
+    // //   "images": {
+    // //     "binding": "IMAGES",
+    // //   },
+    // //   "vars": {
+    // //     "NEXT_PUBLIC_API_URL": "https://dev-forecast-api.anomalyforex.com/v1",
+    // //     "NEXT_PUBLIC_FRONTEND_URL": "https://dev-forcast-fend.phacetechex.workers.dev",
+    // //   },
+    // },
+  },
+}

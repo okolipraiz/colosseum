@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "Finance",
+    "title": "Will USD/NGN hit ₦2,000 before December 2026?",
+    "description": "Predict the outcome of the USD/NGN exchange rate before December 2026.",
+    "background": "/banners/dollar-increase.jpg",
+    "accent": "green",
+    "link": "/markets/8d9c4faf-d9a7-43a2-8cfd-28fdd2864006",
+    "isPast": false
+  },
+  {
+    "id": 2,
+    "category": "Politics",
+    "title": "Who will win the 2027 Nigerian Presidental Election?",
+    "description": "Predict the outcome of the 2027 Nigerian presidential election.",
+    "background": "/banners/election.jpg",
+    "accent": "red",
+    "link": "/markets/06eaa95f-4b14-4738-90b7-0de978393cc1",
+    "isPast": false
+  },
+  {
+    "id": 3,
+    "category": "Commodities",
+    "title": "Will Nigeria increase fuel prices again before 2027?",
+    "description": "Predict the outcome of Nigeria's fuel price changes before 2027.",
+    "background": "/banners/fuel.jpg",
+    "accent": "green",
+    "link": "/markets/9e7ba5b6-0e97-45ed-aeb3-103649ceba98",
+    "isPast": false
+  },
+  {
+    "id": 4,
+    "category": "Past Market - Bbn",
+    "title": "Who will be evicted from BBNaija this weekend?",
+    "description": "Predict the outcome of the eviction from BBNaija this weekend.",
+    "background": "/banners/bbn-gender.jpg",
+    "accent": "blue",
+    "link": "/markets/107b1a07-b7f7-4f1f-8f42-faa8c02229fc",
+    "isPast": true
+  }
+]
