@@ -238,7 +238,7 @@ const HomePageClient = () => {
       {/* Header */}
       <header className="sticky top-0 z-100 h-18.5 border-b border-white/10 bg-gray-900/40 backdrop-blur-sm">
         <div className="max-w-300 mx-auto px-6 h-full flex items-center justify-between">
-          <Link href="/home" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-3 group">
             <div>
               <img
                 src="/logo-white.png"

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import bannerSlides from "@/data/banner.json";
 
-const MAX_SLIDES = 5;
+const MAX_SLIDES = 7;
 
 const ACCENT_STYLES: Record<string, string> = {
   blue: "bg-blue-500/20 text-blue-400 border-blue-500/30",

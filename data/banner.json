@@ -1,6 +1,26 @@
 [
   {
     "id": 1,
+    "category": "Entertainment",
+    "title": "Who will win the match between Carter Efe vs Speed Darlington on October 1, 2026?",
+    "description": "Predict the outcome of the match between Carter Efe and Speed Darlington on October 1, 2026.",
+    "background": "/banners/match1.jpg",
+    "accent": "blue",
+    "link": "/markets/fe18759d-fa47-42df-8beb-e7d65d3695d1",
+    "isPast": false
+  },
+  {
+    "id": 2,
+    "category": "Entertainment",
+    "title": "Who will win the match between Phyna and Nkechi Blessing on October 1, 2026?",
+    "description": "Predict the outcome of the match between Phyna and Nkechi Blessing on October 1, 2026.",
+    "background": "/banners/match2.jpg",
+    "accent": "blue",
+    "link": "/markets/0106f6f5-6866-44c4-a48e-2a2831b3f5e7",
+    "isPast": false
+  },
+  {
+    "id": 3,
     "category": "Finance",
     "title": "Will USD/NGN hit ₦2,000 before December 2026?",
     "description": "Predict the outcome of the USD/NGN exchange rate before December 2026.",
@@ -10,7 +30,7 @@
     "isPast": false
   },
   {
-    "id": 2,
+    "id": 4,
     "category": "Politics",
     "title": "Who will win the 2027 Nigerian Presidental Election?",
     "description": "Predict the outcome of the 2027 Nigerian presidential election.",
@@ -20,7 +40,7 @@
     "isPast": false
   },
   {
-    "id": 3,
+    "id": 5,
     "category": "Commodities",
     "title": "Will Nigeria increase fuel prices again before 2027?",
     "description": "Predict the outcome of Nigeria's fuel price changes before 2027.",
@@ -30,13 +50,13 @@
     "isPast": false
   },
   {
-    "id": 4,
-    "category": "Past Market - Bbn",
+    "id": 6,
+    "category": "BBNaija",
     "title": "Who will be evicted from BBNaija this weekend?",
     "description": "Predict the outcome of the eviction from BBNaija this weekend.",
     "background": "/banners/bbn-gender.jpg",
     "accent": "blue",
-    "link": "/markets/107b1a07-b7f7-4f1f-8f42-faa8c02229fc",
-    "isPast": true
+    "link": "/markets/a10b7be7-241e-4cea-93c4-0cb058f3fa6c",
+    "isPast": false
   }
 ]
